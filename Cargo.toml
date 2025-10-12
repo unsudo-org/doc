@@ -1,0 +1,8 @@
+[package]
+name = "doc"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+pulldown-cmark = { version = "0.13.0" }
+tiny_http = { version = "0.12.0" }
