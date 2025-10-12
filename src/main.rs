@@ -3,6 +3,8 @@ mod markdown;
 mod server;
 
 mod app {
+    const WHITEPAPER: &str = "doc/whitepaper.md";
+
     pub trait Server {
         fn serve<T>(&mut self, path: T)
         where
@@ -25,7 +27,7 @@ mod app {
         }
 
         pub fn run(mut self) {
-            self.server.serve("doc/main.md");
+            self.server.serve(WHITEPAPER);
         }
     }
 }
