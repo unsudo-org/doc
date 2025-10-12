@@ -2,7 +2,7 @@ use super::*;
 
 pub struct Server;
 
-impl super::Server for Server {
+impl app::Server for Server {
     fn serve<T>(&mut self, path: T)
     where
         T: Into<::std::path::PathBuf> {
