@@ -1,3 +1,8 @@
+use super::*;
+
+pub use app::Result;
+pub use app::Error;
+
 #[derive(Debug)]
 #[derive(Clone)]
 #[derive(PartialEq)]
@@ -11,9 +16,9 @@ impl From<String> for Markdown {
 }
 
 impl TryFrom<::std::path::PathBuf> for Markdown {
-    type Error = ::std::io::Error;
+    type Error = app::Error;
 
-    fn try_from(value: ::std::path::PathBuf) -> Result<Self, Self::Error> {
+    fn try_from(value: ::std::path::PathBuf) -> ::std::result::Result<Self, Self::Error> {
         Ok(Self(::std::fs::read_to_string(value)?))
     }
 }
