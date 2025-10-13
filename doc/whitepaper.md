@@ -198,3 +198,210 @@ Blockchain’s full potential remains **locked behind real barriers**:
 - Security: code is law, but few understand the law
 
 Until these are addressed, the promise of Web3 will remain just that — **a promise**.
+
+
+
+# Value Proposition
+
+---
+
+Our decision to build in *Rust* offers a clear competitive advantage over *Solidity* and other non-Rust platforms. Rust provides a modern, performance-oriented, and secure foundation that aligns with the demands of next-generation Web3 infrastructure.
+
+Below are the key areas where Rust stands out:
+
+1. Safely and Reliability by Design
+
+
+
+
+
+
+
+- Competitive
+
+>> Tech Stack
+
+>> Competitive advantages of building in Rust (vs Solidity or non-Rust platforms).
+    
+    >> Superior safety and reliability - Rust offers memory safety without garbage collection or manual memory management.
+        >> Reduces attack surface (buffer overflows, null pointer errors).
+        >> Eliminates whole classes of runtime bugs common in Solidity and JavaScript-based chains.
+    
+        >> Strong static typing and compile time checks.
+            >> Prevents logic errors before deployment.
+            >> More secure by design compared to Solidity's dynamic typing.
+
+    >> System-level flexibility - Custom runtimes possible in Rust (vs fixed VM in Solidity).
+        >> No need to conform to EVM opcodes or limitations.
+        >> Developers can build tailored execution environments for specific use cases.
+        
+        >> Supports async logic and multithreading.
+            >> Enabled use cases like real-time collaboration, gaming, or data streaming.
+            >> Solidity and EVM are fundamentally synchronous, blocking execution models limit innovation.
+
+    >> Performance and scalability.
+        >> Rust compiles to high-performance WASM (used in Polkadot JAM). With lower latency, faster execution, and deterministic behavior.
+        >> Faster runtimes mean cheaper operations. JAM-style chains can offer much lower transaction fees vs EVM chains.
+        >> Parallelism-ready architecture. Unlike Solidity's single-threaded model, Rust-based chains can support parallel execution and async processing.
+
+    >> Developer experience and ecosystem quality.
+        >> Modern developer tooling and IDE support. Rust has best-in-class tooling (cargo, clippy, rust analyzer).
+        >> Growing open-source ecosystem. Shared libraries (cryptography, networking, WASM) are actively maintained and production-grade.
+        
+        >> Stronger engineering talent pool.
+            >> Rust developers tend to be experienced systems engineers.
+            >> Harder to hire solidity developers, and many Solidity developers lack relevant experience.
+
+    >> Governance and upgradability.
+        >> Rust-based chains like Polkadot support native onchain governance.
+            >> More robust upgrade mechanisms than most Solidity chains.
+            >> Avoids the risk of proxy patterns and delegate calls common in Solidity upgrades.
+        
+    >> Interoperability and composability.
+        >> Polkadot JAM offers async cross-chain messaging XCM. Rust native parachains can interoperate without relying on fragile bridges.
+        >> Most EVM chains are isolated unless bridged. Bridges introduce security vulnerabilities (Harmony, Ronin, Wormhole hacks).
+        >> Rust ecosystem can interconnect or influence shared standards.
+
+    >> First-mover advantage in Rust-native web3.
+        >> Most web3 projects are still Solidity/EVM-based. Rust-native services are underrepresented despite better architecture.
+        >> Being early in the JAM ecosystem or Polkadot 2.0 positions us positively.
+            >> As an infrastructure leader rather than another dApp.
+            >> To capture developer migration from Web2 systems engineering to Web3.
+
+
+
+
+
+
+>> Rust vs. Solidity.
+    >> Solidity is still the dominant language for smart contract develoment (EVM, Ethereum).
+    
+    >> Solidity's core limitations - Solidity is ideal for DeFi 1.0 and simple contracts, not full-scale decentralized systems.
+        >> Poor scalability - Monolithic execution layers can't handle complex dApps.
+        >> Gas cost unpredictability - Friction for both developers and users.
+        >> Security vulnerabilities - Weak typing leads to runtime errors and exploits.
+        >> Limited async support - Streaming, real-time logic is nearly impossible natively.
+        >> Tooling fragmentation - Debugging, testing, and optimization are still immature.
+       
+    >> Rust.
+        >> Custom runtimes - Full control over execution logic.
+        >> Asynchronous composability - Support for real-time coordination and data flow.
+        >> Shared security - No need to bootstrap own validator set.
+        
+   >> Infrastructure-layer innovation.
+
+
+
+
+
+# Governance
+
+---
+
+
+
+
+# Compliance
+
+## GDPR Compliance
+
+## Role
+
+### Council
+
+- Act a mediator/judge in cases of dispute or governance deadlock.
+- Veto proposals that are malicious.
+- Oversee day-to-day DAO operation, funding allocation, and management.
+- Coordinate task forces and working groups.
+- Manage Strategic partnerships.
+- Manage external relationships.
+- Manage legal entities associated with the DAO.
+- Guide the DAO towards progressive decentralization.
+- Multisig holders.
+
+#### Accountability and Penalties
+
+To ensure trust, transparency, and integrity in DAO governance, council members are held to a high standard. Abuse of power, negligence, or failure to uphold responsibilities will result in clearly defined penalties.
+
+##### Grounds for Penalty
+
+Council members may be penalized for the following:
+
+- *Conflict of interest*: Failing to disclose relationships or personal gain related to proposals or partnerships.
+- *Abuse of veto power*: Repeatedly or arbitrarily vetoing proposals without valid jurisdiction.
+
+
+###### Negligence
+
+Failure to perform duties such as attending votes, managing multisig, or responding to governance needs.
+
+
+###### Misuse of funds or access
+
+Unauthorized use of DAO funds or privileged access.
+
+
+##### Penalty Framework
+
+Penalties are enforced progressively, with severity depending on the infraction and impact:
+
+| Infraction Level | Description | Penalty |
+|-|-|-|
+| 1 | Minor negligence first-time procedural violation | Formal warning; public notice in DAO forum.
+| 2 | Repeated negligence, unjustified veto use, moderate conflict of interest | Temporary suspension; multisig access revoked during period
+| 3 | Proven abuse of power, financial misconduct, major governance disruption | Immediate dismissal; permanent removal from multisig and council; possible legal referral if applicable
+
+##### Enforcement Process
+
+- Any community member or contributor may submit an abuse report.
+- Reports are reviewed by an external auditor.
+- Accused members are given the right to respond or appeal.
+- Final decisions are subject to a DAO-wide vote for high-severity cases (level 2 or 3).
+
+
+
+# Core Contributor
+
+# Bounty
+
+
+
+
+
+
+
+
+
+
+
+# System Architecture
+
+## Polkadot JAM
+
+### Service & CorePlay
+
+A JAM service will include metadata and PVM bytecode with entry points like refine and accumulate, allowing modular execution on the JAM chain.
+
+The concept of CorePlay (experimental) posits an actor-based smart contract model, where actors deployed onto JAM cores can call each other asynchronously if on different cores, or synchronously if co-located. All leveraring PVM's ability to suspend and resume execution.
+
+Gas-like Behavior in JAM Service
+Allocation of coretime (prepaid)
+Service may charge users in DOT, stablecoins, or any token to cover costs.
+
+JAM is more like a "hosting" compute raather than charging per transaction, so more flexible payment options, and abstracting payment from users who may not need to pay for each transaction.
+
+Gas-like Behavior in CorePlay Agent
+CorePlay (actor model on JAM) allows asynchronous/synchronous message passing between agents.
+Each agent's execution is also metered by PVM weights.
+
+Agents schedule on different cores conssume Coretime for each work package (~6 seconds slots).
+
+The fee model is still evolving, but most likely:
+Agent execution consume Coretime directly.
+
+Cross-core calls are more expensive (like einter-contract calls on Ethereum).
+Service/agents themselves may expose APIs to change users "gas-like" fees.
+
+
+
+

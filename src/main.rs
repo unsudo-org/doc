@@ -37,8 +37,9 @@ mod app {
             }
         }
 
-        pub fn run(mut self) {
-            self.server.serve(WHITEPAPER).unwrap();
+        pub fn run(mut self) -> Result<()> {
+            self.server.serve(WHITEPAPER)?;
+            Ok(())
         }
     }
 }
@@ -46,5 +47,5 @@ mod app {
 fn main() {
     let server: server::Server = server::Server;
     let app: app::App<server::Server> = app::App::new(server);
-    app.run();
+    app.run().unwrap();
 }
