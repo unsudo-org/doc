@@ -1,13 +1,15 @@
----
-title: "Unsudo Protocol Specification"
-version: "0.1.0"
-date: "2025-10-11"
-language: "en"
-encoding: "UTF-8"
-hash: "sha256:b59c67bf196a4758191e42f76670ceba"
-license: "CC-BY-4.0"
----
-
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="">
+    <meta name="keywords" content="whitepaper, censorship">
+    <meta name="author" content="Unsudo">
+    <link rel="icon" href="">
+    <title>Whitepaper</title>
+    <style>
+        
+    </style>
+</head>
 
 This is a mock up
 
