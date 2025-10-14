@@ -7,13 +7,18 @@
     <link rel="icon" href="">
     <title>Whitepaper</title>
     <style>
-        
+	    section {}
+        section heading {}
+        section heading text {}
+        section heading icon {}
     </style>
 </head>
 
 This is a mock up
 
 # Unsudo 0.1.0  
+
+# ⌘ Abstract
 
 ### ⌘ A story about resilience
 
@@ -203,6 +208,10 @@ Until these are addressed, the promise of Web3 will remain just that — **a pro
 
 
 
+
+
+
+
 # Value Proposition
 
 ---
@@ -294,18 +303,158 @@ Below are the key areas where Rust stands out:
 
 
 
+# 
 
 
-# Governance
 
+# ∗ Governance
 ---
+Next gen DAO models, embrace algorithms for unbiased decision making vs traditional orgs.
 
+## Dual Chamber System
+Much like a government Unsudo will operate as a dual chamber system.
+
+### ↘ Electoral Mechanism
+
+
+### ↘ Quorum Algorithm
+
+
+
+Base currency are always in ₿ and not $.
+
+
+
+## ⌘ Tokenomics
+- The maximum supply is 1,000,000 and it is a hard cap.
+
+| Category         | ∑ Balance | ₿      | ↗ Inflow | ↘ Outflow | ▸ Vesting |
+| ---------------- | --------- | ------ | -------- | --------- | --------- |
+| Council          | 200,000   | 2056   |          | 5,000,000 | 20        |
+| Core Contributor | 50,000    | 25     |          | 1,250,000 | 5         |
+| Bounty           | 50,000    | 25     |          | 1,250,000 | 2         |
+| Pre-Seed         | 20,000    | 50,000 |          |           |           |
+| Seed             | 30,000    |        |          |           |           |
+| Series A         | 40000     |        |          |           |           |
+| Series B         | 50000     |        |          |           |           |
+| Series C         | 60000     |        |          |           |           |
+| Public           | 100,000   |        |          |           |           |
+| Liquidity        | 50,000    |        |          |           |           |
+| Reserve          | 350,000   |        |          |           |           |
+|                  |           |        |          |           |           |
+
+### ↘ Vesting
+The vesting schedule will be linear meaning that tokens unlock on a per second basis from the TGE. The vesting schedules are soft targets for the protocol to honor, and this affects participants both positively or negatively but always in the best interest of the protocol. Unsudo DAO aims to be 99% algorithmic-ally governed, this meanings that the protocol itself has inflationary unlock targets to weight as well. In others words, based on algorithms that can be voted in by people, it can act as a sort of central bank making decisions autonomously. So if it is doing well, it may increase unlocks, but become more reserved if market conditions become volatile, and reduce situations where teams dump on the market. This mechanism is completely third party and self sovereign, meaning it is impartial to all partcipants once implemented. 
+
+
+
+### ↘ Token Value Drivers
+
+
+
+### ↘ Liquidity Planning
+- Unsudo aims to be decentralization first so initially will be listed on DEXs, however this is still to be confirmed.
+- 50,000 will be reserved as liquidity.
+
+### ↘ Compliance & Legal Framework
+- The token aims to be a governance token, as well as a commodity  because it is not controlled by any market participant or administration rather indirectly by algorithms voted in by the collective.
+- The token or DAO does not take any country or national border as its home, it remains self sovreign.
+- There may be a legal wrapper, but this is still to be determined.
+- KYC/AML only apply to exchanges where it might be listed on, but Unsudo is largely autonomous, and serves everyone equally.
+
+
+## Inflation Control Mechanism
+
+The rules apply to everyone equally.
+
+```rust
+
+
+
+
+type Outflow = Vec<(u32, u32)>;
+
+fn permitted_inflation(
+	inflation_target: u32,
+	total_supply: u32,
+	total_supply_locked: u32,
+) -> u32 {
+
+}
+
+
+inflation(2_00, 1000000_00, 900000_00);
+```
+
+
+```rust
+type Vested = (
+	total_locked: f32,
+	timestamp_begin: u32,
+	timestamp_end: u32
+);
+type LookbackSeconds = usize;
+
+fn compute<const T: LookbackSeconds>(
+	timestamp: u32,
+	udo_price_history: [f32; T],
+	udo_price: f32,
+	inflation_rate_history: [f32; T],
+	inflation_rate_target: f32,
+	inflation_rate: f32,
+	growth: f32
+) {
+
+}
+
+
+
+
+// chain of responsability - plug in architecture
+
+pub struct Kernel {
+	plugins
+}
+
+```
+
+### Early Unlock
+
+
+
+
+```rust
+fn unlock(
+	duration: u32,
+	price: u32,
+	difficulty: u32,
+	lower_range_price: u32,
+	upper_range_price: u32
+) -> u32 {
+	
+}
+```
+
+
+# ∗ Market Opportunity
+
+## Competitors
+
+
+
+# ∗ Roadmap
+
+### ↘ Now
+
+### ↘ Long Term
+The long term vision for Unsudo is to be self sufficient, needing no human input externally to keep operations running, rather to be completely governed by algorithms. A community of-course has to take ownership of the protocol (ideally a group of people located across borders who share the same mission). These people will have power to update and control the protocol through democratic systems. In the absence of people, the protocol will be able to perform electoral processes, asset re balancing, and autonomously maintain itself. The role of council and governance will still be required to further grow the protocol and ecosystem, but it would be safer, and less likely to suffer from centralized causes of failure.
+
+
+# ∗ Team
 
 
 
 # Compliance
-
-## GDPR Compliance
 
 ## Role
 
@@ -378,7 +527,12 @@ Penalties are enforced progressively, with severity depending on the infraction 
 
 # System Architecture
 
-## Polkadot JAM
+## Principle
+Unlike many projects Unsudo aims to move slow, and priorities quality over raw development speed. This means we take time to plan out and map out our protocol.
+
+
+## Polkadot
+### JAM
 
 ### Service & CorePlay
 
@@ -405,5 +559,38 @@ Cross-core calls are more expensive (like einter-contract calls on Ethereum).
 Service/agents themselves may expose APIs to change users "gas-like" fees.
 
 
+### Hyperbridge
 
 
+## Simulator
+Focus on algorithmic precision and accuracy in governance.
+
+
+
+## ∗ Patchlet
+```rust
+trait Patchlet {
+	fn apply(s: State) -> State; 
+}
+```
+
+## ∗ Thread
+```rust
+struct Thread {
+	
+}
+```
+
+## ∗ Bolt
+
+
+
+# ∗ What We've Learnt
+
+
+
+
+
+
+# ∗ Terminology
+1. Thread: A chain of 
