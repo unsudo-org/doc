@@ -350,12 +350,9 @@ The vesting schedule will be linear meaning that tokens unlock on a per second b
 
 ### ↘ Token Value Drivers
 
-
-
 ### ↘ Liquidity Planning
 - Unsudo aims to be decentralization first so initially will be listed on DEXs, however this is still to be confirmed.
 - 50,000 will be reserved as liquidity.
-
 ### ↘ Compliance & Legal Framework
 - The token aims to be a governance token, as well as a commodity  because it is not controlled by any market participant or administration rather indirectly by algorithms voted in by the collective.
 - The token or DAO does not take any country or national border as its home, it remains self sovreign.
