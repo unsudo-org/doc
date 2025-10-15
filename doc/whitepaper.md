@@ -451,12 +451,9 @@ The long term vision for Unsudo is to be self sufficient, needing no human input
 
 
 
-# Compliance
-
-## Role
-
-### Council
-
+# ∗ Compliance
+## ↘ Role
+### ↓ Council
 - Act a mediator/judge in cases of dispute or governance deadlock.
 - Veto proposals that are malicious.
 - Oversee day-to-day DAO operation, funding allocation, and management.
@@ -466,31 +463,17 @@ The long term vision for Unsudo is to be self sufficient, needing no human input
 - Manage legal entities associated with the DAO.
 - Guide the DAO towards progressive decentralization.
 - Multisig holders.
-
-#### Accountability and Penalties
-
+#### ↡ Accountability and Penalties
 To ensure trust, transparency, and integrity in DAO governance, council members are held to a high standard. Abuse of power, negligence, or failure to uphold responsibilities will result in clearly defined penalties.
-
-##### Grounds for Penalty
-
+#### ↡ Grounds for Penalty
 Council members may be penalized for the following:
-
 - *Conflict of interest*: Failing to disclose relationships or personal gain related to proposals or partnerships.
 - *Abuse of veto power*: Repeatedly or arbitrarily vetoing proposals without valid jurisdiction.
-
-
 ###### Negligence
-
 Failure to perform duties such as attending votes, managing multisig, or responding to governance needs.
-
-
 ###### Misuse of funds or access
-
 Unauthorized use of DAO funds or privileged access.
-
-
 ##### Penalty Framework
-
 Penalties are enforced progressively, with severity depending on the infraction and impact:
 
 | Infraction Level | Description | Penalty |
@@ -500,17 +483,28 @@ Penalties are enforced progressively, with severity depending on the infraction 
 | 3 | Proven abuse of power, financial misconduct, major governance disruption | Immediate dismissal; permanent removal from multisig and council; possible legal referral if applicable
 
 ##### Enforcement Process
-
 - Any community member or contributor may submit an abuse report.
 - Reports are reviewed by an external auditor.
 - Accused members are given the right to respond or appeal.
 - Final decisions are subject to a DAO-wide vote for high-severity cases (level 2 or 3).
+### ↓ Core Contributors
+- Entities contributing on a regular basis of at least 15 hours a week. These are the backbone of thee protocol. 
+- Likely involved in implementation, research, dev, ops, or comms depending on the DAO's focus.
+- Collaborate with Council, and other working groups.
+#### ↡ Grounds for Penalty
+| Infraction Level | Description                                                                                         | Penalty                                                                    |
+| ---------------- | --------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------- |
+| 1                | Minor negligence (missed deadlines, low-quality work)                                               | Warning and request for improvement                                        |
+| 2                | Repeated negligence, failure to meet hour commitments without valid reasons, or disruptive behavior | Temporart suspension of role; loss of access to resources or DAO tooling   |
+| 3                | Severe misconduct such as intentional sabotage, breach of confidentiality, or fraud                 | Immediate removal from role; possible rreferral to Council or legal action |
+
+### ↓ Bounty Hunters
+- Participate by completing bounty tasks.
+- No minimum hours required.
+- Ad hoc contributors who engage with specific DAO needs.
 
 
 
-# Core Contributor
-
-# Bounty
 
 
 
@@ -518,21 +512,25 @@ Penalties are enforced progressively, with severity depending on the infraction 
 
 
 
-
-
-
-
-# System Architecture
-
-## Principle
+# ∗ System Architecture
+## ↘ Principle
 Unlike many projects Unsudo aims to move slow, and priorities quality over raw development speed. This means we take time to plan out and map out our protocol.
 
 
-## Polkadot
-### JAM
+## ↘ Polkadot
+Polkadot is
+### ↓ JAM
+#### ↡ Coretime
+Coretime is rented compute on Polkadot validators, required to run services in the Join-Accumulate model. It replaces parachain slots, offering a more flexible and scalable way to access execution time on the network.
+##### ▪ Bulk
+Reserved in advance, similar to monthly server rentals.
+##### ▪ Instant
+Instant Coretime: On-demand, pay-per-execution.
 
-### Service & CorePlay
+##### ▪ Verifiable Offchain Compute
+Can run 
 
+#### ↡ Service & CorePlay
 A JAM service will include metadata and PVM bytecode with entry points like refine and accumulate, allowing modular execution on the JAM chain.
 
 The concept of CorePlay (experimental) posits an actor-based smart contract model, where actors deployed onto JAM cores can call each other asynchronously if on different cores, or synchronously if co-located. All leveraring PVM's ability to suspend and resume execution.
