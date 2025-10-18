@@ -20,17 +20,100 @@
    - WASM
 # Abstract
 ---
+**JC - This needs to be the elevator pitch. 3 short and concise paragraphs that summarize the project for the layest of men**
+
+Unsudo is building the next generation of autonomous digital governance. A self-sustaining, globally accessible infrastructure where businesses, NGOs, communities and creators can collaborate without borders or bias. By combining advanced algorithms, Polkadot's 'JAM' architecture and the safety of the Rust programming language - Unsudo turns decentralized systems from an ideal scenario into a saleable reality.
+
+**JC - sparkle sparkle**
 # Vision
 ---
+**JC - You technicians show you talk to no one but your computers :P The tone of this vision so far shows aspiration but it is still too vague and has a crypto-utopian sort of tone to it which may alarm the uninitiated. Anchoring this vision in 'benefit statements' and 'outcomes' rather than an ideological vision is prudent**
 ## Cross Border
-- A world where anyone in any country can work together.
-- Mathematical certainty of the the preservation of freedom.
+
+JC
+- Global collaboration without friction. Anyone, anywhere, can contribute to and benefit from projects built on Unsudo.
+-Financial and creative independence. By removing intermediaries and gatekeepers, individuals and teams retain control over their work, earnings and identity.
+- A fairer digital economy. Unsudo reduces the hidden costs of censorship, **JC - I'm stuck between using the word 'regulation' and 'protectionism' in this one...regulation sounds like we're skirting responsibility. Protectionism sounds like we're keeping the market open despite what the powerful desire*) and corporate control? - unlocking trillions in lost and untapped global productivity.**
+
+
+- A world where anyone in any country can work together
+- The preservation of freedom through design and mathematical certainty.
 - A better world for future generations, and something to take ownership of.
 - The decoupling of traditional finance from rich and few companies.
 - The reduction of costs across the board so younger people can afford to start big projects with less.
 - Trust-less digital environments.
 # Problem Statement
 ---
+**JC - This is by far the strongest piece of writing but it is simply too long for investors. This would be something you would submit as part of a masters essay on ethical business practices...speaking from experience. To summarise the points - you're saying that censorship, corruption and unfriendly blockchain design have created inefficiency, inequality and mistrust amongst user bases? ANTI-AUTHORITARIAN AND PRO-DEMOCRACY. The language used is exclusively for technologists and academics. It talks in a policy tone and has heavy infra detail. You must imagine the audience at all times to be investors and users. This means language that highlights business impact, customer pain, urgency and...why you?**
+
+*JC - Actually let's break that down:
+
+Right now the document discusses:
+- Cost of censorship - regulatory burden, moderation spend, chilling effects, reputational volatility (DID I GET THEM ALL?)
+- Hidden cost of corruption - ...let's call it...Macro-level dysfunctions...
+- Barriers to blockchain adoption - UX, fragmentation, key management, security exploits
+
+What is wrong with this?
+- Too moral...it argues why the world is bad and not whose budget is bleeding as a result
+- Abstract beneficiaries - Let's talk about ICP (Ideal Customer Profile), it's a must for investors
+- No 'why now' explanation - We are living through a time of increased AI moderation costs, heightened global tensions where tariffs and trade wars are becoming commonplace...ALSO MENTION THAT POLKADOT JAM IS A SHIFT IN TECHNOLOGICAL CAPABILITIES
+- This actually reveals the solution before it has proven a problem. It talks about how Rust and JAM are used in Unsudo before giving a hypothetical problem to the user/investor. Good to switch this order.
+
+What we need to talk about? (Investors)
+- Who is paying for this problem? Who loses money every time this problem happens? - This is where we talk about our ICPs. We should probably have 2-3 of them. Each will be a type of organisation or user segment who would adopt this protocol.
+EXAMPLES:
+-Mid sized social platform spends a lot of money on compliance with new digital laws in a single country they supply their services. Variations of these regulations in other countries are on the horizon and more sprint work/continuous development can be expected...unless?
+- A large DAO has tens of millions in treasury funds, struggling with human coordination, voter fatigue and attack risk...?
+	- Pain = Human bottlenecks cause stalled votes and treasury loss...Governance attacks and low engagement DAO models are UNSTABLE...Reliance on councils contradicts decentralization?
+- Regulated online communities such as EdTech/HealthTech forums which need to meet legal compliance and high moderation costs
+- NGOs (probably focus on Human Rights) that have been victims of de-platforming and censorship at the bidding of the elites that oppose them (Greta comes to mind)
+- Our story - Unsudo itself is a DAO that needed to be built from scratch by young (and broke) business minded people from 7 different countries who had a vision to build something of their own. Something that we can be proud of and develop on own own terms. The biggest obstacle we faced in our journey was the start-up and organizational costs that come with daring to make it on your own. This gave us the drive to create something of a ladder for other aspiring young people to enter the space on THEIR terms. By reducing costs and democratizing communities effectively, Unsudo hopes to level the playing field for new players to make their mark.
+
+DRAFT:
+THE GOVERNANCE BOTTLENECK IN THE DECENTRALIZED ECONOMY
+The digital economy is evolving faster than its governance systems can handle (**JC - ERECTION).**
+Across blockchain projects, decentralized infrastructure networks and global civic organizations, a consistent pattern emerges: Decision-making is fragile, expensive and politically exposed.
+Billions are being lost to slow coordination, biased moderation and the human costs of managing "decentralization" by committee.
+Unsudo exists to solve that structural inefficiency by replacing trust with mathematics and human bottlenecks with deterministic algorithms. (**JC - Calm down JC)
+
+Investor Case 1: DAO & Treasury Networks: The Human Cost of "Decentralized Governance"
+Over $30 billion sits in DAO treasuries today. Yet most of it is effectively frozen capital trapped in its own governance structure - at the mercy of a handful of active voters.
+
+Problems for Case 1:
+- Low voter participation (Often <10%) means decisions are either delayed or dominated by a few insiders.
+- "Emergency councils" or multi-signature (multisig) transactions undermine decentralization and trust
+- Treasury losses and exploits demonstrably lost hundreds of millions in 2023-2024.
+
+Consequences:
+Operational paralysis. Missed investment windows. Reputational damage.
+
+Opportunity:
+If governance could operate automatically - with policies executed algorithmically (no human delay or bias) - treasuries could function more like autonomous funds (**JC - Hold onto 'autonomous fund' as a concept. This might be our accessible term for users)
+Blah blah blah something something faster, fairer, more resilient...
+
+Investor Case 2: Decentralized Infrastructure & Compute Networks: Coordination at Scale
+
+Problems for Case 2:
+- Resource allocation still depends on manual arbitration or internal processes invisible to the user - (**JC Reworded this sentence 4 times and still not satisfied...suggestions welcome...I'm trying to refer to the storage and bandwidth allocation...)
+- Governance capture by technical insiders (**JC - Small group of developers or early contributors end up controlling most of the decisions in a supposedly "decentralized" systems like these...not necessarily bad actors but have the most technical knowledge so tend to have the most power.)** threatens credibility and deters enterprise adoption
+- Policy changes and pay-outs can stall entire networks when human councils disagree or disengage
+
+Consequences:
+- Downtime and missed service-level guarantees damage network reliability
+- Fragmented governance slows product evolution and investor confidence
+
+Opportunities:
+- Unsudo enables **JC 'governance as infrastructure'?** - policies, elections  and rebalancing all written as code
+- Networks can scale globally without scaling bureaucracy (**Ugh...User bases can increase without increases in organisational costs?...UUUUUGH Expansion required**)
+	As networks grow in size, so do the number of users. Our service provides opportunity for scalability without the need to hire more humans or build complicated interlocking administrative layers (**JC get it together JC, just say departments?)** such as moderators, committees or legal teams.
+	With Unsudo, bureaucratic scaling will no longer 
+
+1) Research Project - pioneer in DAOs and their capabilities - Outreach to Universities recommended
+2) Ecosystem Projects - Mission statement aligned goals that are not supported in a traditional setting
+3) Adapter - Using Polkadot JAM, we can provides opportunities for users of all experience types to build something useful for them
+
+What we need to talk about (Users)
+
 ## The Cost of Censorship
 Censorship has evolved from a matter of platform policy into a deeply embedded systemic challenge, one with wide-reaching economic, legal, cultural, and human implications. While moderation is often necessary to manage harmful or illegal content, the mechanisms behind censorship today have created a costly and fragile system. The burden of enforcing moderation at scale, navigating increasingly complex legal frameworks, and preserving public trust has become a central obstacle to sustainable growth in the digital ecosystem.
 Major platforms now spend billions of dollars annually on moderation infrastructure, including content filters, human reviewers, and appeals systems. These costs continue to rise, driven by pressure to comply with laws such as the EU Digital Services Act and similar regulatory frameworks worldwide. Compliance costs for these laws are not only significant—often reaching into the hundreds of millions—but are also jurisdictionally bounded. This creates a regulatory asymmetry: decentralized systems are largely outside of national legal reach, while centralized companies are left carrying the legal and operational liabilities.
