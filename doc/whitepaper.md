@@ -146,7 +146,8 @@ Blockchain’s full potential remains **locked behind real barriers**:
 Until these are addressed, the promise of Web3 will remain just that — **a promise**.
 ## ∗ Value Proposition
 
-Value Proposition for Developers
+Unsudo is the operating system for Polkadot JAM. We are turning complex, parallel blockchain infrastructure into an intuitive, modular developer platform. Our tools and SDKs abstract away JAM’s technical hurdles, giving builders the freedom to focus on products instead of protocols. With us developers deploy DAOs, dApps & services in days, not months. Abstracted Coretime management ensures predictable, low deployment costs. No-code & SDK tiers make building on Polkadot open to Web2 + Web3 devs.	
+
 1. “Permissionless, Scalable Launch—No Barriers”
 
 Developers can deploy DAOs or modules with zero slot auctions, upfront fees, or infrastructure bottlenecks, accessing JAM’s async power and modular service design with simple SDKs.​
@@ -179,9 +180,8 @@ Users can coordinate in real time, set up automated payments and processes, and 
 
 3. “Security, Audibility, and Trust”
 
-All DAO actions (votes, funds, role assignments) are transparently recorded, visible, and auditable from your dashboard.
+JAM opens the door to the decentralized compute economy — but its complexity keeps many developers outside. Our OS layer is the key that unlocks that door.
 
-With JAM’s modular service architecture, DAOs are harder to hack and easier to upgrade, boosting trust for all stakeholders.​
 ---
 ## ↘ Rust as Strategic Foundation
 Our choice to build in Rust provides a significant competitive advantage over Solidity and other non-Rust environments. Rust's performance, safety, and versatility make it the ideal foundation for building resilient, high-performance, and scalable decentralized infrastructure.
@@ -343,6 +343,30 @@ fn unlock(
 
 
 # ∗ Market Opportunity
+
+1. DAO-as-a-Service market projected 18% CAGR through 2030, expected to exceed $700M annually.​
+
+2. Polkadot developer ecosystem growing ~25% YoY post-JAM testnets.​
+
+3. Estimated addressable market of 500k+ blockchain developers globally by 2026; <15% capable of building directly at runtime/service layer levels.​
+
+About JAM: JAM enables elastic scaling, async compute, flexible Coretime, and 600k+ TPS — unprecedented throughput, but deeply technical.​ Building directly on JAM requires new logic structures (Refine / Accumulate cycles, PVM opcodes, Coretime orchestration). Developers, DAOs, and enterprises need SDKs, prebuilt frameworks, and management layers—tools you will deliver as the “OS.”
+
+So, in order to onboard more users onto Polkadot infrastructure, we have to start with what is the status quo of developing hurdles that users are facing.
+
+"Problem Statement"
+
+Polkadot JAM transforms the relay chain into a compute layer—a decentralized, parallel-processing environment (PVM + services). Developers can technically run anything on it, but writing directly to JAM’s “core space” involves:​
+
+1. Asynchronous service lifecycles (Refine / Accumulate / onTransfer)
+
+2. Coretime management
+
+3. Data‑availability logic
+
+4. Service‑to‑service orchestration​
+
+Building directly there is complex and slow—comparable to programming in assembly code.
 Creating and managing a DAO can be complex, requiring technical coding expertise and significant resources. Legacy blockchains (Ethereum, Solana) and Layer-2s rely on high gas fees, complex slot auctions, and limited composability, capping user participation and stifling real-world adoption.​
 
 For Developers:
@@ -372,7 +396,8 @@ So, how does JAM Unlocks New Markets and Use Cases?
 
 JAM isn’t just another blockchain—it’s a hyper-scalable, sharded “blockchain supercomputer” processing up to 600,000+ transactions per second with native async support and permissionless service deployment.​ This lets you, and any user, launch a DAO that scales to city/enterprise level in seconds, for a negligible fee, with composable modules for governance, payroll, budgeting, or even decentralized AI/IoT applications.​ Parallelism and async execution mean applications that were impossible—like real-time supply chain voting, instant payroll, on-chain gaming clubs, and SME networks—are now feasible and affordable. 
 
-How do we capitalise on JAM?
+How and which problems does UNSUDO address?:
+
 ## Competitors
 
 
