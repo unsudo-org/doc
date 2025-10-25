@@ -1,123 +1,42 @@
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width">
-<meta name="description" content="">
-<meta name="keywords" content="whitepaper, censorship">
-<meta name="author" content="Unsudo">
-<link rel="icon" href="">
-<title>Whitepaper</title>
-# Table Of Content
+gigit<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="">
+    <meta name="keywords" content="whitepaper, censorship">
+    <meta name="author" content="Unsudo">
+    <link rel="icon" href="">
+    <title>Whitepaper</title>
+    <style>
+	    section {}
+        section heading {}
+        section heading text {}
+        section heading icon {}
+    </style>
+</head>  
+# ∗ Abstract
 ---
-1. [Abstract](#abstract)
-2. [Vision](#vision)
-3. [Problem Statement](#problem-statement)
-4. Value Proposition
+# ∗ Contents
+---
+1. Abstract  
+2. Vision  
+3. Value Proposition  
+4. Problem Statement  
 5. Market Opportunity  
 6. Governance  
 7. Token Economics  
 8. System Architecture  
    - Polkadot JAM  
    - Migration  
-   - WASM
-# Abstract
+   - WASM  
+# ∗ Problem Statement
 ---
-**JC - This needs to be the elevator pitch. 3 short and concise paragraphs that summarize the project for the layest of men**
-
-Unsudo is building the next generation of autonomous digital governance. A self-sustaining, globally accessible infrastructure where businesses, NGOs, communities and creators can collaborate without borders or bias. By combining advanced algorithms, Polkadot's 'JAM' architecture and the safety of the Rust programming language - Unsudo turns decentralized systems from an ideal scenario into a saleable reality.
-
-**JC - sparkle sparkle**
-# Vision
----
-**JC - You technicians show you talk to no one but your computers :P The tone of this vision so far shows aspiration but it is still too vague and has a crypto-utopian sort of tone to it which may alarm the uninitiated. Anchoring this vision in 'benefit statements' and 'outcomes' rather than an ideological vision is prudent**
-## Cross Border
-
-JC
-- Global collaboration without friction. Anyone, anywhere, can contribute to and benefit from projects built on Unsudo.
--Financial and creative independence. By removing intermediaries and gatekeepers, individuals and teams retain control over their work, earnings and identity.
-- A fairer digital economy. Unsudo reduces the hidden costs of censorship, **JC - I'm stuck between using the word 'regulation' and 'protectionism' in this one...regulation sounds like we're skirting responsibility. Protectionism sounds like we're keeping the market open despite what the powerful desire*) and corporate control? - unlocking trillions in lost and untapped global productivity.**
-
-
-- A world where anyone in any country can work together
-- The preservation of freedom through design and mathematical certainty.
-- A better world for future generations, and something to take ownership of.
-- The decoupling of traditional finance from rich and few companies.
-- The reduction of costs across the board so younger people can afford to start big projects with less.
-- Trust-less digital environments.
-# Problem Statement
----
-**JC - This is by far the strongest piece of writing but it is simply too long for investors. This would be something you would submit as part of a masters essay on ethical business practices...speaking from experience. To summarise the points - you're saying that censorship, corruption and unfriendly blockchain design have created inefficiency, inequality and mistrust amongst user bases? ANTI-AUTHORITARIAN AND PRO-DEMOCRACY. The language used is exclusively for technologists and academics. It talks in a policy tone and has heavy infra detail. You must imagine the audience at all times to be investors and users. This means language that highlights business impact, customer pain, urgency and...why you?**
-
-*JC - Actually let's break that down:
-
-Right now the document discusses:
-- Cost of censorship - regulatory burden, moderation spend, chilling effects, reputational volatility (DID I GET THEM ALL?)
-- Hidden cost of corruption - ...let's call it...Macro-level dysfunctions...
-- Barriers to blockchain adoption - UX, fragmentation, key management, security exploits
-
-What is wrong with this?
-- Too moral...it argues why the world is bad and not whose budget is bleeding as a result
-- Abstract beneficiaries - Let's talk about ICP (Ideal Customer Profile), it's a must for investors
-- No 'why now' explanation - We are living through a time of increased AI moderation costs, heightened global tensions where tariffs and trade wars are becoming commonplace...ALSO MENTION THAT POLKADOT JAM IS A SHIFT IN TECHNOLOGICAL CAPABILITIES
-- This actually reveals the solution before it has proven a problem. It talks about how Rust and JAM are used in Unsudo before giving a hypothetical problem to the user/investor. Good to switch this order.
-
-What we need to talk about? (Investors)
-- Who is paying for this problem? Who loses money every time this problem happens? - This is where we talk about our ICPs. We should probably have 2-3 of them. Each will be a type of organisation or user segment who would adopt this protocol.
-EXAMPLES:
--Mid sized social platform spends a lot of money on compliance with new digital laws in a single country they supply their services. Variations of these regulations in other countries are on the horizon and more sprint work/continuous development can be expected...unless?
-- A large DAO has tens of millions in treasury funds, struggling with human coordination, voter fatigue and attack risk...?
-	- Pain = Human bottlenecks cause stalled votes and treasury loss...Governance attacks and low engagement DAO models are UNSTABLE...Reliance on councils contradicts decentralization?
-- Regulated online communities such as EdTech/HealthTech forums which need to meet legal compliance and high moderation costs
-- NGOs (probably focus on Human Rights) that have been victims of de-platforming and censorship at the bidding of the elites that oppose them (Greta comes to mind)
-- Our story - Unsudo itself is a DAO that needed to be built from scratch by young (and broke) business minded people from 7 different countries who had a vision to build something of their own. Something that we can be proud of and develop on own own terms. The biggest obstacle we faced in our journey was the start-up and organizational costs that come with daring to make it on your own. This gave us the drive to create something of a ladder for other aspiring young people to enter the space on THEIR terms. By reducing costs and democratizing communities effectively, Unsudo hopes to level the playing field for new players to make their mark.
-
-DRAFT:
-THE GOVERNANCE BOTTLENECK IN THE DECENTRALIZED ECONOMY
-The digital economy is evolving faster than its governance systems can handle (**JC - ERECTION).**
-Across blockchain projects, decentralized infrastructure networks and global civic organizations, a consistent pattern emerges: Decision-making is fragile, expensive and politically exposed.
-Billions are being lost to slow coordination, biased moderation and the human costs of managing "decentralization" by committee.
-Unsudo exists to solve that structural inefficiency by replacing trust with mathematics and human bottlenecks with deterministic algorithms. (**JC - Calm down JC)
-
-Investor Case 1: DAO & Treasury Networks: The Human Cost of "Decentralized Governance"
-Over $30 billion sits in DAO treasuries today. Yet most of it is effectively frozen capital trapped in its own governance structure - at the mercy of a handful of active voters.
-
-Problems for Case 1:
-- Low voter participation (Often <10%) means decisions are either delayed or dominated by a few insiders.
-- "Emergency councils" or multi-signature (multisig) transactions undermine decentralization and trust
-- Treasury losses and exploits demonstrably lost hundreds of millions in 2023-2024.
-
-Consequences:
-Operational paralysis. Missed investment windows. Reputational damage.
-
-Opportunity:
-If governance could operate automatically - with policies executed algorithmically (no human delay or bias) - treasuries could function more like autonomous funds (**JC - Hold onto 'autonomous fund' as a concept. This might be our accessible term for users)
-Blah blah blah something something faster, fairer, more resilient...
-
-Investor Case 2: Decentralized Infrastructure & Compute Networks: Coordination at Scale
-
-Problems for Case 2:
-- Resource allocation still depends on manual arbitration or internal processes invisible to the user - (**JC Reworded this sentence 4 times and still not satisfied...suggestions welcome...I'm trying to refer to the storage and bandwidth allocation...)
-- Governance capture by technical insiders (**JC - Small group of developers or early contributors end up controlling most of the decisions in a supposedly "decentralized" systems like these...not necessarily bad actors but have the most technical knowledge so tend to have the most power.)** threatens credibility and deters enterprise adoption
-- Policy changes and pay-outs can stall entire networks when human councils disagree or disengage
-
-Consequences:
-- Downtime and missed service-level guarantees damage network reliability
-- Fragmented governance slows product evolution and investor confidence
-
-Opportunities:
-- Unsudo enables **JC 'governance as infrastructure'?** - policies, elections  and rebalancing all written as code
-- Networks can scale globally without scaling bureaucracy (**Ugh...User bases can increase without increases in organisational costs?...UUUUUGH Expansion required**)
-	As networks grow in size, so do the number of users. Our service provides opportunity for scalability without the need to hire more humans or build complicated interlocking administrative layers (**JC get it together JC, just say departments?)** such as moderators, committees or legal teams.
-	With Unsudo, bureaucratic scaling will no longer 
-
-1) Research Project - pioneer in DAOs and their capabilities - Outreach to Universities recommended
-2) Ecosystem Projects - Mission statement aligned goals that are not supported in a traditional setting
-3) Adapter - Using Polkadot JAM, we can provides opportunities for users of all experience types to build something useful for them
-
-What we need to talk about (Users)
-
-## The Cost of Censorship
+## ↘ The Cost of Censorship
 Censorship has evolved from a matter of platform policy into a deeply embedded systemic challenge, one with wide-reaching economic, legal, cultural, and human implications. While moderation is often necessary to manage harmful or illegal content, the mechanisms behind censorship today have created a costly and fragile system. The burden of enforcing moderation at scale, navigating increasingly complex legal frameworks, and preserving public trust has become a central obstacle to sustainable growth in the digital ecosystem.
+
 Major platforms now spend billions of dollars annually on moderation infrastructure, including content filters, human reviewers, and appeals systems. These costs continue to rise, driven by pressure to comply with laws such as the EU Digital Services Act and similar regulatory frameworks worldwide. Compliance costs for these laws are not only significant—often reaching into the hundreds of millions—but are also jurisdictionally bounded. This creates a regulatory asymmetry: decentralized systems are largely outside of national legal reach, while centralized companies are left carrying the legal and operational liabilities.
+
 Beyond direct expenses, censorship creates cascading effects on innovation and economic participation. Demonetization policies, advertiser boycotts, and "brand safety" measures lead to lost revenue for both creators and platforms. Startups are particularly disadvantaged, as the cost and complexity of building legally compliant moderation systems become a barrier to entry, stifling innovation before it starts. Even established companies face growing legal risks, with moderation-related lawsuits and settlements now a regular part of operating costs.
+
 The cultural consequences are equally serious. The over-application of censorship leads to a chilling effect, where creators, academics, and ordinary users begin to self-censor to avoid backlash, bans, or reputational harm. Controversial research, minority viewpoints, and dissenting opinions are disproportionately silenced, often under vague or inconsistently enforced policies. As more users lose trust in platforms, many migrate to fringe or unregulated alternatives, reinforcing ideological echo chambers and driving social polarization. The result is a fractured and fragile information ecosystem that discourages open dialogue, weakens public discourse, and homogenizes cultural expression.
 
 At an institutional level, censorship introduces reputational and financial volatility. Companies can suffer stock drops, shareholder lawsuits, and investor divestment following high-profile censorship scandals. Executives are forced to walk a narrow line between appeasing regulators, investors, and vocal user groups — often finding themselves unable to satisfy any side.
@@ -129,6 +48,7 @@ Users, meanwhile, are increasingly disempowered. Deplatforming can sever income 
 - **Apple in China**: Hosting iCloud data within authoritarian legal systems risks user safety.
 - **Covid-19 platform bans**: Users were penalized for views later validated by evidence, undermining platform credibility.
 - **TikTok**: Ongoing scrutiny over state surveillance risks leading to national bans and public distrust.
+
 Censorship is no longer just about moderation — it's a **structural liability**. It distorts markets, suppresses creativity, and exacerbates political fragmentation. Its costs fall most heavily on users and creators, while institutions bear growing legal and reputational risks.
 
 To build resilient, open systems for the future, we must recognize censorship for what it has become: **a systemic bottleneck to progress, prosperity, and trust**.
@@ -204,6 +124,7 @@ Common threats include:
 - Oracle manipulation  
 - Rug pulls
 Insurance exists but is fragmented and underused.
+
 ### 10. **Key Management and Identity Recovery**
 
 - Lost private keys = lost assets  
@@ -224,24 +145,47 @@ Blockchain’s full potential remains **locked behind real barriers**:
 - Security: code is law, but few understand the law
 Until these are addressed, the promise of Web3 will remain just that — **a promise**.
 ## ∗ Value Proposition
+
+Unsudo is the operating system for Polkadot JAM. We are turning complex, parallel blockchain infrastructure into an intuitive, modular developer platform. Our tools and SDKs abstract away JAM’s technical hurdles, giving builders the freedom to focus on products instead of protocols. With us developers deploy DAOs, dApps & services in days, not months. Abstracted Coretime management ensures predictable, low deployment costs. No-code & SDK tiers make building on Polkadot open to Web2 + Web3 devs.	
+
+1. “Permissionless, Scalable Launch—No Barriers”
+
+Developers can deploy DAOs or modules with zero slot auctions, upfront fees, or infrastructure bottlenecks, accessing JAM’s async power and modular service design with simple SDKs.​
+
+Rapid prototyping and seamless upgrades let teams experiment, integrate, and grow at their own pace, with built-in support for cross-chain and external API connections.
+
+2. “Composability and Ecosystem Integration”
+
+Your JAM-based DAO-aaS offers plug-and-play integration: developers can assemble governance, treasury, rewards, and automation modules instead of building from scratch, reducing risk and time-to-market.​
+
+Ecosystem collaboration (with Polkadot, Astar, Moonbeam, and enterprise partners) is frictionless and future-proof.
+
+3. “Access to Incentives and Funding”
+
+JAM provides developer grants, bounties, and incentive pools for new services, easing the financial burden and enabling innovation.​
+
+Additional value for the end users. 
+
+1. “Automated, Transparent Group Decisions—No Technical Knowledge Needed”
+
+Users (business teams, clubs, agencies, NGOs) create, run, and manage their DAOs using familiar web/mobile interfaces, with voting, budgeting, and collaborative decision-making processes that are easy, instant, and transparent—even for complete blockchain novices.​
+
+No need to understand crypto, wallets, or smart contracts—your platform handles all technical details behind the scenes, focusing on outcomes: fairness, trust, simplicity.
+
+2. “Cost Predictability and Speed at Scale”
+
+Thanks to JAM, participation costs are negligible and predictable (“pay only for what you use”), with ultra-fast execution even for large groups—solving the pain of high gas fees and congestion found on other chains.​
+
+Users can coordinate in real time, set up automated payments and processes, and enjoy instant access to funds or results.
+
+3. “Security, Audibility, and Trust”
+
+JAM opens the door to the decentralized compute economy — but its complexity keeps many developers outside. Our OS layer is the key that unlocks that door.
+
 ---
-## ↘ Onchain Infrastructure
-- Why not just server?
-- Long term?
-- Resillience?
-- Tradeoff?
-- Why fundamental to the project.
-- Migration concerns?
-- Immutability.
-- Truely self sovreing code and autonomous machines.
-- Transparency.
-- Cross border collaboration.
 ## ↘ Rust as Strategic Foundation
 Our choice to build in Rust provides a significant competitive advantage over Solidity and other non-Rust environments. Rust's performance, safety, and versatility make it the ideal foundation for building resilient, high-performance, and scalable decentralized infrastructure.
 ### ↓ Key Advantages of Building in Rust
-#### ↡ Democratizing technologies
-- Rust is more available across platforms making it more decentralized, can be run on poor hardware.
-- Rust makes it more available for many programmers of various levels to write more robust software, as it is strict and ensures that contributions will reach a certain level of value.
 #### ↡ Built-in Safety and Reliability
 - Memory-safe by design - no garbage collector, no manual memory management.
 - Eliminates entire classes of runtime bugs like buffer overflows and null exceptions.
@@ -270,40 +214,51 @@ Our choice to build in Rust provides a significant competitive advantage over So
 - We can fix the problems with current DAO models which are either always and increasingly reliant on a few members to manage and maintain the DAO, or a overly fragmented community which leaves the DAO vulnerable to attacks during low quorum or activity states. The solution is to delagate managment of day-to-day operations to the DAO itself and focus on building next-generation systems that dont act on static instructions, but are capable of performing decisions based on algorithms and policies as mathematical formulas.
 - Our mission at Unsudo will be a success if we build a protocol capable of surviving critical inactivity and recover from volatile environments.
 ## ↘ Abstract Execution Layer
+
+## ↘ DAO-as-a-Service (DaaS)
 # ∗ Governance
 ---
 Next gen DAO models, embrace algorithms for unbiased decision making vs traditional orgs.
-## ↓ Dual Chamber System
-- Much like a government Unsudo will operate as a dual chamber system.
-- The community will UDO which grants them votes to pass proposals which can directly alter the protocol's code, or require transfers.
-- The council will not be able pass proposals alone, they will need support of the wider community to be able to access funds, and pass updates.
-- Proposals will need the approval of both chambers, the council only has the power to veto maliscious proposals
-### ↘ Veto
-A temporary mechanism and ability of the council to be able cancel malicious proposals, naturally this comes with concerns. The council itself cannot pass proposals, and act more as representatives (In its maturity, the DAO should be able to handle itself, but early on, council members must take responsibility for maintaining the project and elevating it to that status).
-### ↘ Electoral Mechanism
-### ↘ Quorum Algorithm
-Base currency are always in ₿ and not $.
-## ↓ Tokenomics
-- The maximum supply is 1,000,000 and it is a hard cap.
-- Voting and governance.
 
-| ◦ Category       | ◦ Balance | $ Price | ↗ Inflow    | ↘ Outflow   | 🔒 Vesting |
-| ---------------- | --------- | ------- | ----------- | ----------- | ---------- |
-| Council          | $200,000$ | $25$    | -           | $5,000,000$ | 20         |
-| Core Contributor | $75,000$  | $25$    | -           | $1,875,000$ | 5          |
-| Bounty           | $50,000$  | $25$    | -           | $1,250,000$ | 2          |
-| Pre-Seed         | $20,000$  | $2.5$   | $50,000$    | -           |            |
-| Seed             | $30,000$  | $5$     | $150,000$   | -           |            |
-| Series A         | $40,000$  | $10$    | $400,000$   | -           |            |
-| Series B         | $50,000$  | $17.5$  | $875,000$   | -           |            |
-| Series C         | $60,000$  | $22$    | $1,320,000$ | -           |            |
-| Public           | $100,000$ | $25$    | $2,500,000$ | -           | 3 months   |
-| Liquidity        | $50,000$  | $25$    | -           | $1,250,000$ |            |
-| Reserve          | $325,000$ | $25$    | -           | $8,750,000$ |            |
+## Dual Chamber System
+Much like a government Unsudo will operate as a dual chamber system.
+
+### ↘ Electoral Mechanism
+
+
+### ↘ Quorum Algorithm
+
+
+
+Base currency are always in ₿ and not $.
+
+
+
+## ⌘ Tokenomics
+- The maximum supply is 1,000,000 and it is a hard cap.
+
+| Category         | ∑ Balance | ₿      | ↗ Inflow | ↘ Outflow | ▸ Vesting |
+| ---------------- | --------- | ------ | -------- | --------- | --------- |
+| Council          | 200,000   | 2056   |          | 5,000,000 | 20        |
+| Core Contributor | 50,000    | 25     |          | 1,250,000 | 5         |
+| Bounty           | 50,000    | 25     |          | 1,250,000 | 2         |
+| Pre-Seed         | 20,000    | 50,000 |          |           |           |
+| Seed             | 30,000    |        |          |           |           |
+| Series A         | 40000     |        |          |           |           |
+| Series B         | 50000     |        |          |           |           |
+| Series C         | 60000     |        |          |           |           |
+| Public           | 100,000   |        |          |           |           |
+| Liquidity        | 50,000    |        |          |           |           |
+| Reserve          | 350,000   |        |          |           |           |
+|                  |           |        |          |           |           |
 
 ### ↘ Vesting
-The vesting schedule will be linear meaning that tokens unlock on a per second basis from the TGE. The vesting schedules are soft targets for the protocol to honor, and this affects participants both positively or negatively but always in the best interest of the protocol. Unsudo DAO aims to be 99% algorithmic-ally governed, this meanings that the protocol itself has inflationary unlock targets to weight as well. In others words, based on algorithms that can be voted in by people, it can act as a sort of central bank making decisions autonomously. So if it is doing well, it may increase unlocks, but become more reserved if market conditions become volatile, and reduce situations where teams dump on the market. This mechanism is completely third party and self sovereign, meaning it is impartial to all participants once implemented. 
+The vesting schedule will be linear meaning that tokens unlock on a per second basis from the TGE. The vesting schedules are soft targets for the protocol to honor, and this affects participants both positively or negatively but always in the best interest of the protocol. Unsudo DAO aims to be 99% algorithmic-ally governed, this meanings that the protocol itself has inflationary unlock targets to weight as well. In others words, based on algorithms that can be voted in by people, it can act as a sort of central bank making decisions autonomously. So if it is doing well, it may increase unlocks, but become more reserved if market conditions become volatile, and reduce situations where teams dump on the market. This mechanism is completely third party and self sovereign, meaning it is impartial to all partcipants once implemented. 
+
+
+
 ### ↘ Token Value Drivers
+
 ### ↘ Liquidity Planning
 - Unsudo aims to be decentralization first so initially will be listed on DEXs, however this is still to be confirmed.
 - 50,000 will be reserved as liquidity.
@@ -313,23 +268,8 @@ The vesting schedule will be linear meaning that tokens unlock on a per second b
 - There may be a legal wrapper, but this is still to be determined.
 - KYC/AML only apply to exchanges where it might be listed on, but Unsudo is largely autonomous, and serves everyone equally.
 
-### ↘ Conversion
-#### ↡ Off-Ramp
-#### ↡ Volatility
-#### ↡ Trust
-### ↘ Unlock Rate Mechanism
-- Algorithmic, fair, transparent.
-- Aligns with protocol performance.
-- Helps throttle unlocks in bear markets.
-- Motivates stakeholders to maintain health.
-$U(t)=(Stotal​−Scirc​(t))⋅[rbase​+(rmax​−rbase​)⋅γ(t)]⋅Δt​$
 
-| Year   | Target Annual Unlock Rate | Circ Cap | Note |
-| ------ | ------------------------- | -------- | ---- |
-| 2026   | ~15%                      |          |      |
-| 2027   | ~10%                      |          |      |
-| 3 - 5  | ~5%                       |          |      |
-| 6 - 20 | ~3%                       |          |      |
+## Inflation Control Mechanism
 
 The rules apply to everyone equally.
 
@@ -401,125 +341,81 @@ fn unlock(
 }
 ```
 
-## Treasury
-### Purpose & Philosophy
-- Define the treasury's role: is it simply to fund operations, or is it a long-term sovereign wealth fund? Is it algorithmically managed? This sets the tone for the rest.
-- "The Unsudo Treasury is designed as a self-sovereign, algorithmically-influenced financial backbone of the protocol — funding development, incentivizing contributors, and sustaining public goods in a decentralized, trustless manner."
-### Revenue Stream
-- List and explain where funds come from:
-- Protocol fees (if any)
-- Block rewards / inflation mechanisms
-- Grants
-- Token sales
-- Donations
-- Service fees (e.g., DAO-as-a-Service revenue)
-#### Donation
-- Who can donate?
-	- Individuals.
-	- DAO.
-	- Philanthropists.
-	- Foundation.
-- Is KYC required for large donations?
-- What can be donated?
-- How are donations accepted?
-	- Smart contract?
-	- Multisig treasury wallet?
-	- Platform integration (Gitcoin, Juicebox, OpenCollective)?
-- Donation incentived or purely voluntary?
-	- Do donors receive recognition, NFTs, governance rights, or nothing.
-- Are there limits or conditions?
-- How are donations used?
-[For more information](#contact)
-#### Grant
-- Who can provide grants?
-	- Web3 foundations? Polkadot? Ethereum Foundation?
-	- NGOs, universities, public research orgs?
-	- Corporate or ecosystem funds?
-- What types of grants are eligible?
-	- R&D.
-	- Protocol development.
-	- Governance tooling.
-	- Education/Outreach.
-- Does Unsudo accept grants?
-- Are grants one-time or recurring?
-- What terms or strings are attached?
-- How will grant funds be managed?
-	- General treasury? Specialized wallet?
-	- Tracked via public dashboard?
-#### Sponsorship
-- What does a sponsorship mean in Unsudo's context?
-	- Branding/visibility support?
-	- Funding specific features or community initiatives?
-- Who can become a sponsor?
-	- Crypto projects? Universities? NGOs? Ethical corporations?
-	- Any restrictions based on values or alignment?
-- What do sponsors get in return?
-	- Branding rights?
-	- Governance participation (within limits)?
-	- Custom integrations?
-- Is there a sponsor framework or tiers?
-	- Minimum contributions per tier?
-- How are conflicts of interest avoided?
-	- Can sponsors influence governance?
-	- Are disclosures required?
-- How is sponsorship revenue used?
-	- Pooled into treasury?
-	- Dedicated to outreach?
-	- R&D?
-	- Partner-specific goals?
-### Spending Strategy
-- Describe how funds are deployed:
-- Bounties and contributor rewards
-- Public goods funding
-- Grants to ecosystem projects
-- Strategic investments
-- Liquidity provisioning
-- Emergency reserves
 
-- You could include policies like:
-- Spending caps per quarter
-- Community-approved budget cycles
-- Emergency drawdown mechanisms
-### ↘ Reserve Strategy & Buffer Management
-- How much of the treasury is liquid vs. locked or reserved for long-term?
-- Stablecoin buffer (to protect against volatility)
-- BTC/DOT/ETH reserve ratios
-- Algorithmic triggers to rebalance based on token price or volatility
-### ↘ **Transparency and Reporting**
-How does the community track treasury inflows/outflows?
-- Onchain dashboards (e.g., Dune, Subscan)
-- Monthly or quarterly reports
-- Public access to multisig or autonomous contract logs
-### ↘ Governance
-How are treasury decisions made?
-- Voting mechanism (DAO-wide? Council? Algorithm?)
-- Emergency vetoes
-- Proposal and voting thresholds
-- Algorithmic treasury management — explain if portions are controlled via rules or formulas (e.g., inflation-aware spending, price-peg mechanisms)
-- 
-### ↘ Security
-- Is it a multisig wallet? Controlled by Council?
-- Hardware wallet standards?
-- Future plans for autonomous smart contract-controlled treasury
-- Contingency in case of key loss or Council dispute
-### ↘ Growth Policy
-- Reinvestment strategies (e.g., yield farming, staking)
-- Token buybacks or burns
-- Building a runway for X years
-- Treasury as a backstop for economic shock
-## ↓ Community Input & Market Validation
-# Market Opportunity
----
+# ∗ Market Opportunity
+
+1. DAO-as-a-Service market projected 18% CAGR through 2030, expected to exceed $700M annually.​
+
+2. Polkadot developer ecosystem growing ~25% YoY post-JAM testnets.​
+
+3. Estimated addressable market of 500k+ blockchain developers globally by 2026; <15% capable of building directly at runtime/service layer levels.​
+
+About JAM: JAM enables elastic scaling, async compute, flexible Coretime, and 600k+ TPS — unprecedented throughput, but deeply technical.​ Building directly on JAM requires new logic structures (Refine / Accumulate cycles, PVM opcodes, Coretime orchestration). Developers, DAOs, and enterprises need SDKs, prebuilt frameworks, and management layers—tools you will deliver as the “OS.”
+
+So, in order to onboard more users onto Polkadot infrastructure, we have to start with what is the status quo of developing hurdles that users are facing.
+
+"Problem Statement"
+
+Polkadot JAM transforms the relay chain into a compute layer—a decentralized, parallel-processing environment (PVM + services). Developers can technically run anything on it, but writing directly to JAM’s “core space” involves:​
+
+1. Asynchronous service lifecycles (Refine / Accumulate / onTransfer)
+
+2. Coretime management
+
+3. Data‑availability logic
+
+4. Service‑to‑service orchestration​
+
+Building directly there is complex and slow—comparable to programming in assembly code.
+Creating and managing a DAO can be complex, requiring technical coding expertise and significant resources. Legacy blockchains (Ethereum, Solana) and Layer-2s rely on high gas fees, complex slot auctions, and limited composability, capping user participation and stifling real-world adoption.​
+
+For Developers:
+1. Technical Complexity
+
+- Building cross-chain, scalable DAOs requires handling unique APIs, custom smart contract languages (Solidity, Rust, Ink!), and conducting complex security audits.​
+
+- Slot auctions (in legacy Polkadot) or high gas requirements (Ethereum) create operational uncertainty and deployment delays.
+
+2. Infrastructure and Onboarding
+
+- Running nodes, handling parachain maintenance, or even managing compute resources for smart contracts requires substantial time, resources, and expertise.
+
+- Many platforms lack composable modules or SDKs, forcing “reinventing the wheel” for treasury, governance, and automation logic.​
+
+3. Cost of Development and Maintenance
+
+- Developers bear unpredictable infrastructure costs and have to compete for limited network resources.
+
+- Obtaining funding (grants, coretime) involves heavy competition or proposal complexity, discouraging smaller teams.
+
+4. Integration and Upgrades
+
+- Legacy DAOs have low extensibility; frequent protocol upgrades, hard forks, or changes can break integrations and force ongoing refactoring.
+
+So, how does JAM Unlocks New Markets and Use Cases?
+
+JAM isn’t just another blockchain—it’s a hyper-scalable, sharded “blockchain supercomputer” processing up to 600,000+ transactions per second with native async support and permissionless service deployment.​ This lets you, and any user, launch a DAO that scales to city/enterprise level in seconds, for a negligible fee, with composable modules for governance, payroll, budgeting, or even decentralized AI/IoT applications.​ Parallelism and async execution mean applications that were impossible—like real-time supply chain voting, instant payroll, on-chain gaming clubs, and SME networks—are now feasible and affordable. 
+
+How and which problems does UNSUDO address?:
+
 ## Competitors
-# Roadmap
----
-## Now
-## Long Term
+
+
+
+# ∗ Roadmap
+### ↘ Now
+### ↘ Long Term
 The long term vision for Unsudo is to be self sufficient, needing no human input externally to keep operations running, rather to be completely governed by algorithms. A community of-course has to take ownership of the protocol (ideally a group of people located across borders who share the same mission). These people will have power to update and control the protocol through democratic systems. In the absence of people, the protocol will be able to perform electoral processes, asset re balancing, and autonomously maintain itself. The role of council and governance will still be required to further grow the protocol and ecosystem, but it would be safer, and less likely to suffer from centralized causes of failure.
-# Team
----
-## Role
-### Council
+
+
+# ∗ Team
+## ↘ Role
+
+
+
+# ∗ Compliance
+## ↘ Role
+### ↓ Council
 - Act a mediator/judge in cases of dispute or governance deadlock.
 - Veto proposals that are malicious.
 - Oversee day-to-day DAO operation, funding allocation, and management.
@@ -529,9 +425,9 @@ The long term vision for Unsudo is to be self sufficient, needing no human input
 - Manage legal entities associated with the DAO.
 - Guide the DAO towards progressive decentralization.
 - Multisig holders.
-#### Accountability and Penalties
+#### ↡ Accountability and Penalties
 To ensure trust, transparency, and integrity in DAO governance, council members are held to a high standard. Abuse of power, negligence, or failure to uphold responsibilities will result in clearly defined penalties.
-#### Grounds for Penalty
+#### ↡ Grounds for Penalty
 Council members may be penalized for the following:
 - *Conflict of interest*: Failing to disclose relationships or personal gain related to proposals or partnerships.
 - *Abuse of veto power*: Repeatedly or arbitrarily vetoing proposals without valid jurisdiction.
@@ -563,16 +459,11 @@ Penalties are enforced progressively, with severity depending on the infraction 
 | 1                | Minor negligence (missed deadlines, low-quality work)                                               | Warning and request for improvement                                        |
 | 2                | Repeated negligence, failure to meet hour commitments without valid reasons, or disruptive behavior | Temporart suspension of role; loss of access to resources or DAO tooling   |
 | 3                | Severe misconduct such as intentional sabotage, breach of confidentiality, or fraud                 | Immediate removal from role; possible rreferral to Council or legal action |
-### ↓ Core
-- 15 hours expected continuos contribution
-- rewards in UDO, budget up to 3 years, and then receive reward in currency once protocol is profitable.
+
 ### ↓ Bounty Hunters
 - Participate by completing bounty tasks.
 - No minimum hours required.
 - Ad hoc contributors who engage with specific DAO needs.
-# Compliance
----
-## Foundation
 
 
 
@@ -581,61 +472,27 @@ Penalties are enforced progressively, with severity depending on the infraction 
 
 
 
-# System Architecture
----
+
+
+# ∗ System Architecture
+## ↘ Principle
 Unlike many projects Unsudo aims to move slow, and priorities quality over raw development speed. This means we take time to plan out and map out our protocol.
-## Rust
-- We aimt to support Rust as a first class language within the protocol. Why?
-### Security
-- Memory safety.
-- Compile-time guarantees.
-- Avoidance of typical EVM/Solidity bugs such as reentrancy, overflows.
-### Cross-Border, Cross-Platform
-- Rust code can run everywhere: onchain, offchain, CLI, mobile, or edge devices.
-- This allows Unsudo agents and contributors in resource-constrained regions to still operate nodes, run simulations, or participate meaningfully — reinforcing our goal of true global collaboration.
-## Polkadot
-Polkadot is
-### Join Accumulate Machine
-Polkadot JAM is a paradigm shift in how compute is allocated, scheduled, and consumed within a decentralized protocol. Rather than locking up entire parachain slots, JAM introduces a **more flexible, modular, and cost-efficient execution model**. It supports **actor-based services** with asynchronous capabilities, executed on-demand via **Coretime**, a new abstraction of decentralized computation.
-#### Coretime: Decentralized Compute-as-a-Service
-Coretime represents **purchasable slices of execution bandwidth**, rented directly from Polkadot validators. It decouples execution from consensus and enables dynamic workloads. Unlike traditional models that bill per transaction or state write, Coretime enables **scheduled and burst compute**, which is crucial for services like Unsudo.
-Coretime comes in two modes:
-- *Bulk Coretime*: Reserved in advance — ideal for predictable workloads, similar to leasing virtual machines or containers.
-- *Instant Coretime*: Pay-per-use — dynamically acquired to handle unpredictable spikes or user-driven actions.
-This abstraction allows protocols like Unsudo to **scale horizontally** — acquiring compute only when necessary, and **releasing it when idle**, dramatically improving capital efficiency.
-#### Service
-- **Metadata**: Describes the purpose, structure, and permissioning model of the service.
-- **Bytecode (PVM)**: Executable logic written in a WASM-compatible language (e.g. Rust).
-- **Entrypoints**: Functions like `refine()` or `accumulate()` that govern how state evolves over time or across events.
-JAM Services are **first-class citizens** of the chain, capable of **suspending and resuming execution**, orchestrating multi-agent collaboration, or automating governance logic.
-#### Modular Execution & Scheduling
-JAM supports **deferred or event-driven execution**, rather than requiring computation to happen synchronously in a block. This allows for:
-- Real-time simulations
-- Periodic policy enforcement
-- Off-chain data refinement (e.g. through verifiable compute)
-- Coordination between multiple services
 
-### CorePlay: Actor-Based Computation
-CorePlay is an **experimental actor-model runtime** built atop JAM’s execution framework. Inspired by Erlang and Akka models, it introduces a **message-passing architecture** for decentralized agents.
-#### Agents
-CorePlay Agents are **autonomous compute actors** that:
-- Run on JAM cores
-- Hold local state and logic
-- Communicate asynchronously (across cores) or synchronously (on the same core)
-- Can spawn other agents or coordinate with services
-This model aligns with Unsudo’s vision of **autonomous, self-governing infrastructure**. Each policy, governance logic, or treasury strategy can be encapsulated as a CorePlay agent — independent, auditable, and resilient.
-#### Execution and Cost Model
-- **Execution is metered via PVM weights** rather than gas.
-- **Time slots (~6 seconds)** on cores are scheduled for each agent's execution.
-- Cross-core messaging carries higher costs (due to queuing and latency).
-- Coretime is either prepaid by the protocol or charged to users indirectly via services.
-Unlike Ethereum’s per-transaction gas model, **JAM abstracts away cost from users**, enabling freemium models, background tasks, and coordinated governance computation — perfect for Unsudo’s **algorithmic treasury and policy agents**.
-#### Use Cases for Unsudo
-- **Patchlet Execution**: Run as agents that evaluate and apply protocol changes.
-- **Policy Threads**: Long-running governance rules (e.g. inflation control, treasury policy).
-- **Election Agents**: Oversee voting cycles and quorum algorithms.
-- **DAO Watchdogs**: Monitor malicious activity and enforce automatic intervention.
-- **Recovery Routines**: Trigger safe-state recovery in periods of DAO inactivity.
+## ↘ Rust
+- We aimt to support Rust as a first class language within the protocol. Why?
+## ↘ Polkadot
+Polkadot is
+### ↓ JAM
+#### ↡ Coretime
+Coretime is rented compute on Polkadot validators, required to run services in the Join-Accumulate model. It replaces parachain slots, offering a more flexible and scalable way to access execution time on the network.
+##### ▪ Bulk
+Reserved in advance, similar to monthly server rentals.
+##### ▪ Instant
+Instant Coretime: On-demand, pay-per-execution.
+
+##### ▪ Verifiable Offchain Compute
+Can run 
+
 #### ↡ Service & CorePlay
 A JAM service will include metadata and PVM bytecode with entry points like refine and accumulate, allowing modular execution on the JAM chain.
 
@@ -669,23 +526,16 @@ Focus on algorithmic precision and accuracy in governance.
 
 
 ## ∗ Patchlet
-
 ```rust
 trait Patchlet {
 	fn apply(s: State) -> State; 
 }
-
-trait Policy {
-	fn enforce(s: State) -> State;
-}
 ```
 
-
 ## ∗ Thread
-
 ```rust
 struct Thread {
-	policies: Vec<Policy>
+	
 }
 ```
 
@@ -693,10 +543,16 @@ struct Thread {
 
 
 
-# What We've Learnt
----
-# Terminology 
----
-# Contact
----
-unsudo@atomicmail.io
+# ∗ What We've Learnt
+
+
+
+
+
+
+# ∗ Terminology
+1. Thread: A chain of 
+
+
+
+# ∗ Contact
