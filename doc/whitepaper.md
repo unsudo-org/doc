@@ -8,10 +8,12 @@
 
 # Table Of Content
 ---
-1. [Abstract](#abstract)
-2. [Vision](#vision)
-3. [Problem Statement](#problem-statement)
-4. Value Proposition
+# ∗ Contents
+---
+1. Abstract  
+2. Vision  
+3. Value Proposition  
+4. Problem Statement  
 5. Market Opportunity  
 6. Governance  
 7. Token Economics  
