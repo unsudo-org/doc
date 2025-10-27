@@ -215,6 +215,9 @@ As a Layer 1.5 protocol, Unsudo tackles JAM’s adoption barriers by providing:
 By acting as an accessible layer atop JAM, Unsudo transforms JAM’s raw computational power into a broadly usable platform for developers, DAOs, enterprises, and emerging Web3 applications. It bridges the gap between JAM’s technical capabilities and the real-world needs of builders, unlocking new markets and use cases across the Polkadot ecosystem.
 # Roadmap
 ---
+## Now
+|     |
+| --- |
 ## Long Term
 The long-term vision for Unsudo is to evolve into a fully self-sufficient protocol, capable of operating without direct human intervention. Governance and operations will be predominantly algorithmic, allowing the system to autonomously perform electoral processes, rebalance assets, and maintain overall protocol health.
 
