@@ -6,19 +6,6 @@
 <link rel="icon" href="">
 <title>Whitepaper</title>
 
-# Table Of Content
----
-1. [Abstract](#abstract)
-2. [Vision](#vision)
-3. [Problem Statement](#problem-statement)
-4. Value Proposition
-5. Market Opportunity  
-6. Governance  
-7. Token Economics  
-8. System Architecture  
-   - Polkadot JAM  
-   - Migration  
-   - WASM
 # Abstract
 ---
 Unsudo is a Layer 1.5 built on top of JAM.
@@ -27,9 +14,6 @@ Unsudo is a Layer 1.5 built on top of JAM.
 We envision Unsudo as a fully self-sovereign, self-governing protocol, a network where people can build and deploy practical tools that feel simple, fast, and intuitive rather than heavy or restrictive. Our goal is to enable anyone, anywhere, to collaborate and transact seamlessly in transparent, verifiable environments that protect freedom and privacy by design. By reducing dependence on centralized intermediaries and lowering operational barriers, Unsudo empowers builders to create meaningful systems and services with less overhead. The result is a more open, efficient, and sustainable digital ecosystem where innovation and governance evolve together.
 # Problem Statement
 ---
-
-* less labour, more autonomous, lower costs, never shutsdown.
-
 Across digital economies, billions are lost each year to inefficiency, human bottlenecks, and regulatory complexity. What began as a movement toward decentralization has, in practice, recreated many of the same structural failures of legacy systems, censorship, corruption and coordination breakdowns, only with higher costs and lower accountability.
 ## The Cost of Censorship
 Censorship has evolved from a matter of platform policy into a deeply embedded systemic challenge, one with economic, legal, cultural, and human consequences. While moderation is necessary to curb harmful or illegal content, today’s censorship mechanisms have created a costly, fragile, and ultimately unsustainable system.
