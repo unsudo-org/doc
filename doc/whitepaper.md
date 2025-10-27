@@ -6,24 +6,9 @@
 <link rel="icon" href="">
 <title>Whitepaper</title>
 
-# Table Of Content
----
-# ∗ Contents
----
-1. Abstract  
-2. Vision  
-3. Value Proposition  
-4. Problem Statement  
-5. Market Opportunity  
-6. Governance  
-7. Token Economics  
-8. System Architecture  
-   - Polkadot JAM  
-   - Migration  
-   - WASM
 # Abstract
 ---
-Unsudo is an Layer 1.5 built on top of JAM.
+Unsudo is a Layer 1.5 built on top of JAM.
 # Vision
 ---
 We envision Unsudo as a fully self-sovereign, self-governing protocol, a network where people can build and deploy practical tools that feel simple, fast, and intuitive rather than heavy or restrictive. Our goal is to enable anyone, anywhere, to collaborate and transact seamlessly in transparent, verifiable environments that protect freedom and privacy by design. By reducing dependence on centralized intermediaries and lowering operational barriers, Unsudo empowers builders to create meaningful systems and services with less overhead. The result is a more open, efficient, and sustainable digital ecosystem where innovation and governance evolve together.
@@ -173,7 +158,7 @@ Unlocks are algorithmic, fair, and transparent. Rates adjust based on protocol p
 ### Purpose & Philosophy
 The Unsudo Treasury functions as a self-sovereign, algorithmically-influenced financial backbone. It funds protocol development, incentivizes contributors, and sustains public goods in a decentralized, trustless manner.
 ### Revenue Stream
-Funds originate from protocol fees, inflationary issuance, grants, donations, token sales, and service fees
+Funds originate from protocol fees, grants, donations, token sales, and service fees
 #### Donation
 Donations can come from individuals, DAOs, philanthropists, or foundations. KYC may apply for large contributions. Donations are accepted via smart contracts, multisig wallets, or platform integrations, and can optionally confer recognition, NFTs, or governance rights.
 #### Grant
@@ -198,7 +183,7 @@ The DAO continuously incorporates feedback and validation from the community to 
 ---
 The Polkadot ecosystem is rapidly expanding, with developer adoption growing roughly 25% year-over-year after JAM testnets. By 2026, there will be over 500,000 blockchain developers globally, yet fewer than 15% have the expertise to build directly at runtime or service-layer levels. JAM itself enables unprecedented capabilities—elastic scaling, asynchronous compute, flexible Coretime orchestration, and throughput exceeding 600,000 transactions per second—but harnessing this power directly requires deep technical knowledge.
 
-As a Layer 1.5 protocol, UNSUDO sits atop JAM, providing a composable, developer-friendly platform that abstracts low-level complexities while exposing JAM’s full computational power. By offering SDKs, prebuilt modules, automation frameworks, and standardized protocols, UNSUDO lowers the barrier to entry for developers, enterprises, and DAOs. This positions UNSUDO as a foundational layer for a broad range of applications, from decentralized organizations and real-time enterprise networks to AI/IoT integrations.
+As a Layer 1.5 protocol, Unsudo sits atop JAM, providing a composable, developer-friendly platform that abstracts low-level complexities while exposing JAM’s full computational power. By offering SDKs, prebuilt modules, automation frameworks, and standardized protocols, Unsudo lowers the barrier to entry for developers, enterprises, and DAOs. This positions Unsudo as a foundational layer for a broad range of applications, from decentralized organizations and real-time enterprise networks to AI/IoT integrations.
 ## Problem Statement
 JAM transforms the Polkadot relay chain into a parallelized compute layer, enabling permissionless, asynchronous execution of services. While JAM can technically handle almost any computation, developing directly in its core environment introduces multiple challenges.
 - Managing asynchronous service lifecycles (Refine/Accumulate/onTransfer).
