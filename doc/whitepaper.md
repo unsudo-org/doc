@@ -262,11 +262,11 @@ Council members may be penalized for:
 ### Core Contributors
 Core Contributors are active entities dedicating at least 15 hours per week to the protocol. They form the backbone of operations, contributing across research, development, operations, and communications, collaborating with the Council and other working groups.
 #### Grounds for Penalty
-| Infraction Level | Description                                                                                         | Penalty                                                                    |
-| ---------------- | --------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------- |
-| 1                | Minor negligence (missed deadlines, low-quality work)                                               | Warning and request for improvement                                        |
-| 2                | Repeated negligence, failure to meet hour commitments without valid reasons, or disruptive behavior | Temporart suspension of role; loss of access to resources or DAO tooling   |
-| 3                | Severe misconduct such as intentional sabotage, breach of confidentiality, or fraud                 | Immediate removal from role; possible rreferral to Council or legal action |
+| Infraction Level | Description                                                                                         | Penalty                                                                   |
+| ---------------- | --------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------- |
+| 1                | Minor negligence (missed deadlines, low-quality work)                                               | Warning and request for improvement                                       |
+| 2                | Repeated negligence, failure to meet hour commitments without valid reasons, or disruptive behavior | Temporart suspension of role; loss of access to resources or DAO tooling  |
+| 3                | Severe misconduct such as intentional sabotage, breach of confidentiality, or fraud                 | Immediate removal from role; possible referral to Council or legal action |
 
 ### Bounty Hunters
 - Contribute on an ad hoc basis by completing specific bounty tasks.
