@@ -1,5 +1,4 @@
-.obsidian
-.env
+**/.obsidian
 script
 node_modules
 target
