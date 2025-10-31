@@ -217,8 +217,13 @@ By acting as an accessible layer atop JAM, Unsudo transforms JAM’s raw computa
 # Roadmap
 ---
 ## Now
-|     |
-| --- |
+|                             | Deadline   | Note                                                                         |
+| --------------------------- | ---------- | ---------------------------------------------------------------------------- |
+| Whitepaper (manifest-0.2.0) | 25.11.2025 |                                                                              |
+| Client (summit-0.1.0)       | 1.1.2026   | Website                                                                      |
+| Onchain Infra (epoch-0.1.0) | 1.4.2026   | Layer 1.5 on top of JAM                                                      |
+| Infra & Lib (relay-0.1.0)   | 1.4.2026   | Libraries and tools for connecting and talking to the onchain infrastructure |
+
 ## Long Term
 The long-term vision for Unsudo is to evolve into a fully self-sufficient protocol, capable of operating without direct human intervention. Governance and operations will be predominantly algorithmic, allowing the system to autonomously perform electoral processes, rebalance assets, and maintain overall protocol health.
 
