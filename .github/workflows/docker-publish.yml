@@ -6,7 +6,7 @@ name: Docker
 # documentation.
 
 on:
-  schedule:
+  #schedule:
     #- cron: '41 9 * * *'
   push:
     branches: [ "main" ]
