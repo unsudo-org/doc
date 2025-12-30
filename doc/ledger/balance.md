@@ -7,7 +7,7 @@ The  balance table is amounts promised when our our token mechanism is in place.
 | autismo         | 80            | Bounty  |
 | autismo         | 2000          | Bounty  |
 | acrilic         | 500           | Bounty  |
-| deadlynightling | 600           | Bounty  |
+| deadlynightling | 900           | Bounty  |
 | chineko         | 200           | Bounty  | 
 | frosty          | 500           | Council |
 | jza             | 5000          | Council |
