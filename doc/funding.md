@@ -8,8 +8,12 @@ Unsudo - Layer 1.5 on top of Polkadot JAM
 - We are focuing on attracting web2 and web3 developers, we are abstracting the low level functionality of JAM so it is safe and easier to use for the dev community. 
 - DAO and community
 - We are tools that solve the problem
+- Polkadot is like a Power plant, and we are like a transformer, and users can easily plug into us and connect power to their homes
 # Why is our team interested in this project?
 UK. ... talk about whitepaper
+Values based pitch (for polkadot), 
+cost based pitch,
+needs based pitch - We also want to build on something like this (depends on the research on target audience) (for polkadot)
 # 1 Minute Video Pitch
 # Project Details
 Expected final state - vision
@@ -17,8 +21,8 @@ Expected final state - vision
 - documentation of core components, protocols, architecture to be deployed:
 	- ...
 - Research - case, market research
-	- why web2 devs dont turn to web3?
-	- research censorship?
+	- why web2 devs dont turn to web3? (what do they care about?)
+	- research censorship? 
 	- additional resource 1 to 1 talk to users and what we found out
 	- primary sources, secondary sources form to unsudo, other discord groups
 - mock ups of ui components - head of arts??
@@ -32,6 +36,9 @@ Expected final state - vision
 		- Make it easy for web2 devs to jump into web3.
 		- Abstract JAM.
 	- and what are we not trying to do
+		- Not trying to make a layer 2.0 or parachain.
+		- Not going to be building another JAM.
+		- Not going bankrupt
 # Ecosystem Fit
 ## How does Unsudo integrate into the Polkadot Ecosystem
 - Polkadot has a vision of tools and chains being used on top of JAM to target many groups. We are building Layer 1.5 on top of Polkadot JAM, which will focus on delivering to ??? some specific niche ???.
@@ -84,5 +91,5 @@ Any plans for future funding... yes
 Vision for projects growth and impact in the polkadot ecosystem... 
 ## Additional Information
 Work we have already done related to the project... answered above
-Any other teams contributed?? now
+Any other teams contributed?? no
 Other funding we  may have applied for... 
